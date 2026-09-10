@@ -12,13 +12,14 @@ hw1 = st.Page(
 
 hw2 = st.Page(
     "HW/HW2.py",
-    title="Homework 2",
-    default=True
+    title="Homework 2"
+    
 )
 
 hw3 = st.Page(
     "HW/HW3.py",
-    title="Homework 3"
+    title="Homework 3",
+    default=True
 )
 
 pg = st.navigation([hw1, hw2, hw3])
