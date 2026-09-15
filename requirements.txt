@@ -1,6 +1,7 @@
 streamlit
 openai
-requests
-beautifulsoup4
-google-genai
 PyMuPDF
+pypdf
+chromadb
+pysqlite3-binary
+beautifulsoup4
