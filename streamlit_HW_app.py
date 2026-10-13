@@ -29,10 +29,16 @@ hw4 = st.Page(
 
 hw5 = st.Page(
     "HW/HW5.py",
-    title="Homework 5",
+    title="Homework 5"
+    
+)
+
+hw7 = st.Page(
+    "HW/HW7.py",
+    title="Homework 7",
     default=True
 )
 
-pg = st.navigation([hw1, hw2, hw3, hw4, hw5])
+pg = st.navigation([hw1, hw2, hw3, hw4, hw5, hw7])
 
 pg.run()
